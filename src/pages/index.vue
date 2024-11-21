@@ -1,3 +1,9 @@
-<template>Hi all</template>
+<template>
+  <MainLayout>
+    <RouterView/>
+  </MainLayout>
+</template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import MainLayout from "@/components/layouts/MainLayout.vue";
+</script>
